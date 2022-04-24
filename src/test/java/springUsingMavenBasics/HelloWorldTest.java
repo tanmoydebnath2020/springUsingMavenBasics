@@ -1,13 +1,10 @@
 package springUsingMavenBasics;
 
-import static org.junit.Assert.*;
-import org.junit.Test;
+import static org.testng.Assert.*;
 
 public class HelloWorldTest {
 
-    @Test
-    public void javaHelloWorld() {
-        HelloWorld helloWorld = new HelloWorld();
-        assertEquals("Hello World", helloWorld.JavaHelloWorld());
+    @org.testng.annotations.Test
+    public void testJavaHelloWorld() {
     }
 }
